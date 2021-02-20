@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/aljazeera">
+
+    <fragment
+        android:id="@+id/aljazeera"
+        android:name="com.gauravdalvi.newsapp.ui.AlJazeera.GalleryFragment"
+        android:label="@string/al_jazeera"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/bbc"
+        android:name="com.gauravdalvi.newsapp.ui.BBC.HomeFragment"
+        android:label="@string/bbc"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/cnn"
+        android:name="com.gauravdalvi.newsapp.ui.CNN.SlideshowFragment"
+        android:label="@string/cnn"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/foxnews"
+        android:name="com.gauravdalvi.newsapp.fragment.FoxNews"
+        android:label="@string/fox_news"
+        tools:layout="@layout/fragment_fox_news" />
+    <fragment
+        android:id="@+id/skynews"
+        android:name="com.gauravdalvi.newsapp.fragment.SkyNews"
+        android:label="@string/sky_news"
+        tools:layout="@layout/fragment_sky_news" />
+</navigation>
