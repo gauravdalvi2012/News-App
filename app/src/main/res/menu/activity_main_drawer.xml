@@ -39,6 +39,11 @@
                 android:icon="@drawable/newyorktimeslogo"
                 android:menuCategory="secondary"
                 android:title="@string/new_york_times" />
+            <item
+                android:id="@+id/ndtvindia"
+                android:icon="@drawable/ndtvindialogo"
+                android:menuCategory="secondary"
+                android:title="@string/ndtv_india" />
         </menu>
     </item>
 </menu>
